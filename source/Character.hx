@@ -543,7 +543,7 @@ class Character extends FlxSprite
 			case 'discord':
 				frames = Paths.getSparrowAtlas('VS._Discord_Assets/spritesheet/Discord_Assets', 'ping');
 				animation.addByPrefix('idle', 'idle', 24, false);
-				animation.addBYPrefix('up', 'up', 24, false);
+				animation.addByPrefix('up', 'up', 24, false);
 				animation.addByPrefix('down', 'down', 24, false);
 				animation.addByPrefix('left', 'left', 24, false);
 				animation.addByPrefix('right', 'right', 24, false);
