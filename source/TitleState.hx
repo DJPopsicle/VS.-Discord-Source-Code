@@ -139,8 +139,8 @@ class TitleState extends MusicBeatState
 
 		discordBop = new FlxSprite(FlxG.width * 0.35, FlxG.height * 1.2);
 		discordBop.frames = Paths.getSparrowAtlas('discordTitleBop');
-		discordBop.animation.addByIndices('bopOnce', 'bop', [8, 0, 1, 2, 3, 4, 5, 6, 7, 8], "", 24, false);
-		discordBop.animation.addByIndices('bopTwice', 'bop', [8, 0, 1, 2, 3, 4, 5, 6, 7, 8], "", 24, false);
+		discordBop.animation.addByIndices('bopOnce', 'bop', 24, false);
+		discordBop.animation.addByIndices('bopTwice', 'bop', 24, false);
 		discordBop.antialiasing = true;
 		add(discordBop);
 
