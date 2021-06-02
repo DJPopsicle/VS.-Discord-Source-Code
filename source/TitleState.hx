@@ -139,8 +139,8 @@ class TitleState extends MusicBeatState
 
 		discordBop = new FlxSprite(FlxG.width * 0.35, FlxG.height * 1.2);
 		discordBop.frames = Paths.getSparrowAtlas('discordTitleBop');
-		discordBop.animation.addByIndices('bopOnce', 'bop', 24, false);
-		discordBop.animation.addByIndices('bopTwice', 'bop', 24, false);
+		discordBop.animation.addByPrefix('bopOnce', 'bop', 24, false);
+		discordBop.animation.addByPrefix('bopTwice', 'bop', 24, false);
 		discordBop.antialiasing = true;
 		add(discordBop);
 
@@ -363,9 +363,9 @@ class TitleState extends MusicBeatState
 		danceLeft = !danceLeft;
 
 		if (danceLeft)
-			discordBop.animation.play('danceRight');
+			discordBop.animation.play('bopOnce');
 		else
-			discordBop.animation.play('danceLeft');
+			discordBop.animation.play('bopTwice');
 
 		FlxG.log.add(curBeat);
 
