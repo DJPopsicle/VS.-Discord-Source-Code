@@ -49,6 +49,9 @@ jobs:
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
+          haxelib install actuate
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          lime rebuild extension-webm [windows/mac/linux]
           haxelib list
       - name: Create APIStuff
         uses: "finnp/create-file-action@master"
@@ -91,6 +94,9 @@ jobs:
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
+          haxelib install actuate
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          lime rebuild extension-webm [windows/mac/linux]
           haxelib list
         shell: cmd
       - name: Create APIStuff
@@ -131,6 +137,9 @@ jobs:
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
+          haxelib install actuate
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          lime rebuild extension-webm [windows/mac/linux]
           haxelib list
       - name: Create APIStuff
         run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
