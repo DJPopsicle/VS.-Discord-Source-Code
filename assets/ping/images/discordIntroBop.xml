@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="discordIntroBop">
 <!-- Created with  j a k e 2 8 -->
-<SubTexture name="bop0000" x="0" y="0" width="327" hight="241"/>
-<SubTexture name="bop0001" x="0" y="0" width="327" hight="241"/>
-<SubTexture name="bop0002" x="327" y="0" width="327" hight="241"/>
-<SubTexture name="bop0003" x="327" y="0" width="327" hight="241"/>
-<SubTexture name="bop0004" x="654" y="0" width="327" hight="241"/>
-<SubTexture name="bop0005" x="654" y="0" width="327" hight="241"/>
-<SubTexture name="bop0006" x="0" y="241" width="327" hight="241"/>
-<SubTexture name="bop0007" x="0" y="241" width="327" hight="241"/>
-<SubTexture name="bop0008" x="0" y="0" width="327" hight="241"/>
+<SubTexture name="bop0000" x="0" y="0" width="327" height="241"/>
+<SubTexture name="bop0001" x="0" y="0" width="327" height="241"/>
+<SubTexture name="bop0002" x="327" y="0" width="327" height="241"/>
+<SubTexture name="bop0003" x="327" y="0" width="327" height="241"/>
+<SubTexture name="bop0004" x="654" y="0" width="327" height="241"/>
+<SubTexture name="bop0005" x="654" y="0" width="327" height="241"/>
+<SubTexture name="bop0006" x="0" y="241" width="327" height="241"/>
+<SubTexture name="bop0007" x="0" y="241" width="327" height="241"/>
+<SubTexture name="bop0008" x="0" y="0" width="327" height="241"/>
 </TextureAtlas>
