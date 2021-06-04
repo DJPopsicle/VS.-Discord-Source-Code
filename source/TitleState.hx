@@ -142,7 +142,7 @@ class TitleState extends MusicBeatState
 		gfDance.animation.addByPrefix('bop', 'bop',24, true);
 		gfDance.antialiasing = true;
 		gfDance.setGraphicSize(Std.int(gfDance.width * 0.6));
-		gfDance.scale = 5;
+		gfDance.scale.set(5, 5);
 		add(gfDance);
 
 		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
