@@ -64,7 +64,7 @@ class TitleState extends MusicBeatState
 
 		super.create();
 
-		FlxG.save.bind('save', "Funkin Mic'd Up");
+		FlxG.save.bind('save', "Discordo");
 
 		Highscore.load();
 
@@ -137,11 +137,12 @@ class TitleState extends MusicBeatState
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
-		gfDance = new FlxSprite(FlxG.width * 0.23, FlxG.height * 0.07);
+		gfDance = new FlxSprite(100, 100);
 		gfDance.frames = Paths.getSparrowAtlas('discordIntroBop','ping');
 		gfDance.animation.addByPrefix('bop', 'bop',24, true);
 		gfDance.antialiasing = true;
 		gfDance.setGraphicSize(Std.int(gfDance.width * 0.6));
+		gfDance.scale = 5;
 		add(gfDance);
 
 		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
@@ -369,7 +370,7 @@ class TitleState extends MusicBeatState
 		switch (curBeat)
 		{
 			case 4:
-				createCoolText(['Verwex,   Kadedev', 'Ash237', 'present']);
+				createCoolText(['DJ Popsicle', 'Junbi', 'Katil09', 'TSG', 'dizzi', 'Ethan The Orange', 'MUGIMUGI', 'SpringedBuilds', 'present']);
 			// credTextShit.text += '\npresent...';
 			// credTextShit.addText();
 			case 6:

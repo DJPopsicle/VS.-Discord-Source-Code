@@ -83,7 +83,7 @@ class Main extends Sprite
 		addChild(memoryCounter);
 		#end
 
-		var bitmapData = Assets.getBitmapData("assets/images/watermark.png");
+		var bitmapData = Assets.getBitmapData("assets/images/watermark/discord_watermark.png");
 
 		watermark = new Sprite();
         watermark.addChild(new Bitmap(bitmapData)); //Sets the graphic of the sprite to a Bitmap object, which uses our embedded BitmapData class.
